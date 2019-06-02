@@ -1,0 +1,10 @@
+RUNG 4
+  EQU char0 '0'
+  OSR
+  PARALLEL
+    UART_SEND CR 1 0
+    UART_SEND LF 1 0
+    UART_SEND char2 1 0
+    UART_SEND char1 1 0
+  END
+END
